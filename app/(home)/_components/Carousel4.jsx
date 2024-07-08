@@ -37,8 +37,8 @@ export default function Carousel4({ data }) {
               </div>
               <Image
                 src={s.ImageURL}
-                width={600}
-                height={600}
+                width={300}
+                height={300}
                 quality={10}
                 priority
               />
