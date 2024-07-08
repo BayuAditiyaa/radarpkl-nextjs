@@ -41,7 +41,7 @@ export default function Body({
               <div>
                 {/* <Carousel items={data} /> */}
                 {/* <Carousel3 /> */}
-                <Carousel4 />
+                <Carousel4 data={data?.slice(0, 4)} />
                 <div className="h-full ">
                   <h1 className="text-lg font-bold">{`${
                     title ? title : "Berita Terkini"
