@@ -5,7 +5,7 @@ import supabase from "../config/supabaseConfig";
 
 // const ITEMS_PER_PAGE = 24; // Number of items per page
 
-export const revalidate = 60; // seconds
+// export const revalidate = 60; // seconds
 
 export default async function Home() {
   const { data } = await supabase
